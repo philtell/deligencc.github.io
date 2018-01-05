@@ -1,0 +1,188 @@
+?<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>德强视频在线看</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script href="../jquery-3.2.1.min.js"></script>
+	<!--防止右键以及Ctrl+Shift+i查看源代码-->
+		<script type="text/javascript">
+			window.onload=function(){
+				document.onkeydown=function(){
+					var e=window.event||arguments[0];
+					if(e.keyCode==123){
+						alert("小样你想干嘛？");
+						return false;
+					}else if((e.ctrlKey)&&(e.shiftKey)&&(e.keyCode==73)){
+						alert("还是不给你看。。");
+						return false;
+					}else if((e.ctrlKey)&&(e.keyCode==85)){//追加
+
+					return false;
+					}
+				};
+				document.oncontextmenu=function(){
+					alert("小样不给你看");
+					return false;
+				}
+			}
+		</script>
+	<style type="text/css">
+		#img1{
+			width: 175px;
+			height: 175px;
+			float: left;
+			padding-bottom: 10px;
+			padding-left: 20px;
+		}
+		#word{
+			width: 20px;
+			height: 100px;
+			float: left;
+		}
+		#img2{
+			width: 175px;
+			height: 175px;
+			float: right;
+			padding-bottom: 10px;
+			padding-right: 20px;
+		}
+		img{
+			width:auto;
+			height:auto;
+			max-width:100%;
+			max-height:100%;
+		}
+		#fontSetting{
+			text-align: center;
+			width: 100%;
+			height: 70px;
+		}
+		.visi{
+			visibility: hidden;
+		}
+		.float1{
+			float: left;
+			visibility: hidden;
+			right: 1%;
+			position: fixed;
+			width: 85px;
+			background: #85ffa5;
+			top: 25%;
+		}
+		.float2{
+			float: left;
+			visibility: hidden;
+			left: 1%;
+			position: fixed;
+			width: 85px;
+			background: #85ffa5;
+			top: 25%;
+		}
+		@media screen and (max-width: 900px){
+			#img1{
+				width: 48%;
+				padding-bottom: 0px;
+				padding-left: 0px;
+				float: left;
+			}
+			#img2{
+				width: 48%;
+				float: left;
+				padding-bottom: 0px;
+				padding-right: 0px;
+			}
+			.vis{
+				visibility: hidden;
+			}
+			.visi{
+				visibility: visible;
+				font-size: 10sp;
+				-moz-text-size-adjust: 10em;
+			}
+			.float1{
+				visibility: visible;
+			}
+			.float2{
+				visibility: visible;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="float1">
+	<a href="https://pan.baidu.com/s/1jIL0kL4"><span style="color: whitesmoke">安卓版下载</span></a>
+</div>
+<div class="float2">
+	<a href="https://pan.baidu.com/s/1bP3YMU"><span style="color: whitesmoke">使用说明</span></a>
+</div>
+<div id="img1">
+<img src="../images/zhifubao.jpg">
+	<center><span class="vis" style="color: red ">&nbsp;如果你喜欢这个网站,欢迎捐助我</span></center>
+</div>
+
+<div id="img2">
+	<img src="../images/weixin.jpg">
+	<span class="vis" style="color: red">&nbsp;如果你喜欢这个网站,欢迎捐助我</span>
+
+</div>
+
+<div class="search d1">
+	<center><font class="visi" color="#0593F9" >欢迎捐助,一分钱也是爱</font></center>
+<center><font color="black">ODFLV&nbsp;&nbsp;为您解析全网VIP视频</font></center>
+	  <form action="http://aikan-tv.com/?">
+	  <input type="text" name="url" placeholder="搜索从这里开始...">
+	  <button type="submit"></button>
+	  </form>
+	</div>
+	<div class="search d2">
+		<center><font color="black">石头解析&nbsp;&nbsp;为您解析全网VIP视频</font></center>
+	  <form action="https://jiexi.071811.cc/jx.php?">
+	  <input type="text" name="url" placeholder="搜索从这里开始...">
+	  <button id="btn2" ></button>
+	</form>
+	</div>
+	<div class="search d3">
+		<center><font color="black">无名小站&nbsp;&nbsp;为您解析全网VIP视频</font></center>
+	<form action="http://www.sfsft.com/admin.php?">
+	  <input type="text" name="url" placeholder="搜索从这里开始...">
+	  <button type="submit" ></button>
+	</form>
+	</div>
+	<div class="search d4">
+		<center><font color="black">眼睛会下雨&nbsp;&nbsp;为您解析全网VIP视频</font></center>
+	<form action="http://www.0335haibo.com/yun.php?">
+	  <input type="text" name="url" placeholder="搜索从这里开始...">
+	  <button type="submit"></button>
+	</form>
+	</div>
+	<div class="search d5">
+		<center><font color="black">百域阁&nbsp;&nbsp;为您解析全网VIP视频</font></center>
+	<form action="http://api.baiyug.cn/vip/index.php?">
+	  <input type="text" name="url" placeholder="搜索从这里开始...">
+	  <button type="submit"></button>
+	</form>
+	</div>
+	<div class="search d6">
+		<center><font color="black">妹儿云&nbsp;&nbsp;为您解析全网VIP视频</font></center>
+	<form action="https://www.yymeier.com/api.php?">
+	  <input type="text" name="url" placeholder="搜索从这里开始...">
+	  <button type="submit"></button>
+	</form>
+	</div>
+	<div class="search d7">
+		<center><font color="black">浮空解析&nbsp;&nbsp;为您解析全网VIP视频</font></center>
+	<form action="http://ifkjx.com/?">
+	  <input type="text" name="url" placeholder="搜索从这里开始...">
+	  <button type="submit"></button>
+	</form>
+</div>
+
+</body>
+</html>
