@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>VIP视频大全</title>
+  <meta name="viewport"
+          content="width=device-width,initial-scale=0.5,maximum-scale=1,minimum-scale=1,user-scalable=no">
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+	
+  <style type="text/css">
+    .float1{
+      float: left;
+      visibility: hidden;
+      right: 5%;
+      position: fixed;
+      width: 85px;
+      background: #fff6a4;
+      top: 25%;
+      z-index: 10;
+    }
+    .float2{
+      text-align: center;
+      line-height: 20px;
+      height: 20px;
+      visibility: hidden;
+      position: fixed;
+      width: 100%;
+      background: #fff6a4;
+      bottom: 0%;
+      z-index: 10;
+    }
+    @media screen and (max-width: 900px){
+      .float1{
+        visibility: visible;
+      }
+      .float2{
+        visibility: visible;
+      }
+    }
+  </style>
+<script type="text/javascript">
+$(document).ready(function(e) {
+	$("input[name=btn1]").click(function(e) {
+            var a1 = $("input[name=textinput]").val();
+            if(a1!=null){
+                var a2 = "http://aikan-tv.com/?url="+a1;
+                top.location.href=a2;
+            }else {
+                alert("当前网址不能为空,请重新输入");
+            }
+    });
+    $("input[name=btn2]").click(function(e) {
+        var a1 = $("input[name=textinput2]").val();
+        if(a1!=null){
+            var a2 = "https://jiexi.071811.cc/jx.php?url="+a1;
+            top.location.href=a2;
+        }else {
+            alert("当前网址不能为空,请重新输入");
+        }
+
+
+    });
+    $("input[name=btn3]").click(function(e) {
+        var a1 = $("input[name=textinput3]").val();
+        if(a1!=null){
+            var a2 = "http://pupudy.com/play?make=url&id="+a1;
+            top.location.href=a2;
+        }else {
+            alert("当前网址不能为空,请重新输入");
+        }
+
+    });
+    $("input[name=btn4]").click(function(e) {
+        var a1 = $("input[name=textinput4]").val();
+        if(a1!=null){
+            var a2 = "http://www.0335haibo.com/yun.php?url="+a1;
+            top.location.href=a2;
+        }else {
+            alert("当前网址不能为空,请重新输入");
+        }
+
+    });
+	   $("input[name=btn5]").click(function(e) {
+        var a1 = $("input[name=textinput5]").val();
+        if(a1!=null){
+            var a2 = "http://api.baiyug.cn/vip/index.php?url="+a1;
+            top.location.href=a2;
+        }else {
+            alert("当前网址不能为空,请重新输入");
+        }
+
+    });
+
+});
+</script>
+</head>
+
+<body>
+<div data-role="page" id="page" background="red">
+
+ 
+
+  <div data-role="header">
+    <h1>ODFLV VIP</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="textinput">视频网址:</label>
+      <input type="text" name="textinput" id="textinput" value="" placeholder="例:http://WangDeQiang is a handsome man.html" />
+      
+    </div>
+    <input type="button" name="btn1" value="观看">
+
+  <div data-role="footer">
+    <h4 >脚注</h4>
+  </div>
+
+
+  <div data-role="header">
+    <h1>石头解析 VIP</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="textinput">视频网址:</label>
+      <input type="text" name="textinput2" id="textinput" value=""  />
+
+    </div>
+    <input type="button" name="btn2" value="观看">
+  </div>
+  <div data-role="footer">
+    <h4>脚注</h4>
+  </div>
+
+
+  <div data-role="header">
+    <h1>噗噗电影 VIP</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="textinput">视频网址:</label>
+      <input type="text" name="textinput3" id="textinput" value=""  />
+
+    </div>
+    <input type="button" name="btn3" value="观看">
+  </div>
+  <div data-role="footer">
+    <h4>脚注</h4>
+  </div>
+
+
+  <div data-role="header">
+    <h1>眼睛会下雨 VIP</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="textinput">视频网址:</label>
+      <input type="text" name="textinput4" id="textinput" value=""  />
+
+    </div>
+    <input type="button" name="btn4" value="观看">
+  </div>
+  
+  <div data-role="footer">
+    <h4>脚注</h4>
+  </div>
+  <div data-role="header">
+    <h1>百域阁 VIP</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="textinput">视频网址:</label>
+      <input type="text" name="textinput5" id="textinput" value=""  />
+    </div>
+    <input type="button" name="btn5" value="观看">
+  </div>
+  <div data-role="footer">
+    <h4>脚注</h4>
+  </div>
+
+</div>
+</body>
+</html>
