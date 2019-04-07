@@ -47,7 +47,7 @@ $(document).ready(function(e) {
 	$("input[name=btn1]").click(function(e) {
             var a1 = $("input[name=textinput]").val();
             if(a1!=null){
-                var a2 = "http://aikan-tv.com/?url="+a1;
+                var a2 = "https://aikan-tv.com/?url="+a1;
                 top.location.href=a2;
             }else {
                 alert("当前网址不能为空,请重新输入");
@@ -110,7 +110,7 @@ $(document).ready(function(e) {
   <div data-role="content">
     <div data-role="fieldcontain">
       <label for="textinput">视频网址:</label>
-      <input type="text" name="textinput" id="textinput" value="" placeholder="例:http://WangDeQiang is a handsome man.html" />
+      <input type="text" name="textinput" id="textinput" value="" placeholder="例:https://www.iqiyi.com/v_19rrkl299k.html" />
       
     </div>
     <input type="button" name="btn1" value="观看">
